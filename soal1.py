@@ -2,6 +2,7 @@
 # The function accepts two parameters, namely the temperature value and 
 # the temperature unit ('C' for Celsius, 'F' for Fahrenheit).
 
+import math
 def convert_temperature(value, unit):
     unit.upper()
     if unit == 'C':
